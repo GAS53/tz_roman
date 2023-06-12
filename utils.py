@@ -25,15 +25,3 @@ def find_subrtakt(digits):
     new += pre_digit
     return new
 
-
-
-
-
-
-
-
-
-if __name__ == '__main__':
-    chars = check_chars('MCCXXXIV')
-    li = [PERMIT_VALUES.get(i) for i in chars]
-    print(find_subrtakt(li))

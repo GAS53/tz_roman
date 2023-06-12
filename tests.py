@@ -3,6 +3,7 @@ import unittest
 import utils
 from main import run
 
+
 class TestValues(unittest.TestCase):
     
     def test_check_chars_bad0(self):
